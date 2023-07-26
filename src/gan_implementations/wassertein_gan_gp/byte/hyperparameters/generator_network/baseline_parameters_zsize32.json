@@ -1,0 +1,8 @@
+{
+  "input_dropout_rate":0.1,
+  "dropout_rate":0.5,
+  "hidden_neurons":[256, 256],
+  "z_size":32,
+  "features_size":256
+
+}

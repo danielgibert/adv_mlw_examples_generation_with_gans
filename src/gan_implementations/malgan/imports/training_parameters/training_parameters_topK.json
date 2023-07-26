@@ -1,0 +1,23 @@
+{
+  "project":"imports-malgan-topK",
+  "entity":"mcf-danielgibert",
+  "run_name":"malgan-topK",
+
+  "num_epochs": 20,
+  "batch_size": 32,
+
+  "lr":{
+    "discriminator":0.00001,
+    "generator":0.00001
+  },
+
+  "beta1":0.5,
+  "beta2":0.999,
+
+  "log_interval": 10,
+  "eval_interval": 700,
+  "validation_interval": 1,
+  "save_interval": 1,
+
+  "label_smoothing":0.9
+}

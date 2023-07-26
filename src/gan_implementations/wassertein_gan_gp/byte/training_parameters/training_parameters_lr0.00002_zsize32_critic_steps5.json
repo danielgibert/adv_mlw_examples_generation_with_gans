@@ -1,0 +1,26 @@
+{
+  "project":"byte-histogram-wassertein-gan-gp-critic",
+  "entity":"mcf-danielgibert",
+  "run_name":"wassertein-gan-gp-critic",
+
+  "num_epochs": 100,
+  "batch_size": 32,
+  "validation_batch_size": 1,
+  "train_every_X_steps":5,
+  "clip_value": 0.01,
+  "lambda_gp": 10,
+
+  "lr":{
+    "discriminator":0.00002,
+    "generator":0.00002
+  },
+  "beta1":0.0,
+  "beta2":0.999,
+
+  "log_interval": 50,
+  "eval_interval": 200,
+  "evaluation_samples": 32,
+  "validation_interval": 1,
+  "save_interval": 1,
+  "label_smoothing": 1.0
+}
