@@ -27,5 +27,7 @@ Train the following detectors:
 * EMBER detector
 * MalConv detector
 
+## Acknowledgements
+This project has received funding Enterprise Ireland and the European Union’s Horizon 2020 Research and Innovation Programme under Marie Skłodowska-Curie grant agreement No 847402.
 
 
